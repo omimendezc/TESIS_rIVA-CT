@@ -2,7 +2,7 @@
 import excel "C:\Usuario\Tesis\datos_IVAGeneral_LaPaz.xlsx", firstrow clear
 
 // DEFINIR LA SERIE TEMPORAL
-gen fecha = ym(anio, mes)
+gen fecha = ym(año, mes)
 format fecha %tm
 tsset fecha
 
